@@ -1,0 +1,10 @@
+shoping_cart:
+  url: https://cart.example.com
+courier:
+  url: https://courier.example.com
+catalog:
+  url: https://catalog.example.com
+sso:
+  url: https://api-sso.example.com
+notification_url:
+  url: https://api-notification.example.com

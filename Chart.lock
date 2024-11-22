@@ -1,0 +1,9 @@
+dependencies:
+- name: sso
+  repository: https://kamo-semonyo.github.io/helm-dep-2
+  version: 0.1.0
+- name: notification-config
+  repository: https://kamo-semonyo.github.io/helm-dep-1
+  version: 0.1.0
+digest: sha256:1a78fbff205a9a41b22d54b42607cc679e0cd25107360ae7ace7807d14f2ea7a
+generated: "2024-11-22T09:38:39.952876+02:00"

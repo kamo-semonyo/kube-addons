@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kube-addon
+data:
+  # property-like keys; each key maps to a simple value
+  shoping_cart_url: {{ .Values.shopping_cart.url }}
+  courier_url: {{ .Values.courier.url }}
+  catalog_url: {{ .Values.catalog.url }}
